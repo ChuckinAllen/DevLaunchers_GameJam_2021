@@ -4,10 +4,12 @@ using UnityEngine;
 
 namespace BeardedManStudios.Forge.Networking.Generated
 {
-	[GeneratedRPC("{\"types\":[]")]
-	[GeneratedRPCVariableNames("{\"types\":[]")]
+	[GeneratedRPC("{\"types\":[[][]]")]
+	[GeneratedRPCVariableNames("{\"types\":[[][]]")]
 	public abstract partial class BasicSphereBehavior : NetworkBehavior
 	{
+		public const byte RPC_MOVE_UP = 0 + 5;
+		public const byte RPC_MOVE_DOWN = 1 + 5;
 		
 		public BasicSphereNetworkObject networkObject = null;
 
@@ -21,6 +23,8 @@ namespace BeardedManStudios.Forge.Networking.Generated
 			networkObject.AttachedBehavior = this;
 
 			base.SetupHelperRpcs(networkObject);
+			networkObject.RegisterRpc("MoveUp", MoveUp);
+			networkObject.RegisterRpc("MoveDown", MoveDown);
 
 			networkObject.onDestroy += DestroyGameObject;
 
@@ -97,6 +101,14 @@ namespace BeardedManStudios.Forge.Networking.Generated
 			networkObject.SnapInterpolations();
 		}
 
+		/// <summary>
+		/// Arguments:
+		/// </summary>
+		public abstract void MoveUp(RpcArgs args);
+		/// <summary>
+		/// Arguments:
+		/// </summary>
+		public abstract void MoveDown(RpcArgs args);
 
 		// DO NOT TOUCH, THIS GETS GENERATED PLEASE EXTEND THIS CLASS IF YOU WISH TO HAVE CUSTOM CODE ADDITIONS
 	}

@@ -218,6 +218,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 636040455}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &674615790 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3204215454857253609, guid: 624f740077b880e4bb28c9b72d432a4d, type: 3}
+  m_PrefabInstance: {fileID: 3204215454578469728}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &674615803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674615790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5a84985a5cb40498d72399eeca7f33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,6 +838,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3204215454857253611, guid: 624f740077b880e4bb28c9b72d432a4d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3204215454857253615, guid: 624f740077b880e4bb28c9b72d432a4d, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -863,6 +884,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3204215454857253615, guid: 624f740077b880e4bb28c9b72d432a4d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204215454857253616, guid: 624f740077b880e4bb28c9b72d432a4d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204215454857253617, guid: 624f740077b880e4bb28c9b72d432a4d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204215454857253618, guid: 624f740077b880e4bb28c9b72d432a4d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204215454857253619, guid: 624f740077b880e4bb28c9b72d432a4d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204215454857253620, guid: 624f740077b880e4bb28c9b72d432a4d, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

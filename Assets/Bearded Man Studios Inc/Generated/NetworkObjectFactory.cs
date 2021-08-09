@@ -23,6 +23,10 @@ namespace BeardedManStudios.Forge.Networking.Generated
 			{
 				switch (identity)
 				{
+					case BasicSphereNetworkObject.IDENTITY:
+						availableCallback = true;
+						obj = new BasicSphereNetworkObject(networker, id, frame);
+						break;
 					case ChatManagerNetworkObject.IDENTITY:
 						availableCallback = true;
 						obj = new ChatManagerNetworkObject(networker, id, frame);
@@ -42,10 +46,6 @@ namespace BeardedManStudios.Forge.Networking.Generated
 					case TestNetworkObject.IDENTITY:
 						availableCallback = true;
 						obj = new TestNetworkObject(networker, id, frame);
-						break;
-					case BasicSphereNetworkObject.IDENTITY:
-						availableCallback = true;
-						obj = new BasicSphereNetworkObject(networker, id, frame);
 						break;
 				}
 
