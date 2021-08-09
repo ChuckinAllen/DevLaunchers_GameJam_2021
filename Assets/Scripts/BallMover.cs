@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Mover : MonoBehaviour
+public class BallMover : MonoBehaviour
 {
     Rigidbody rb;
     // Start is called before the first frame update
@@ -20,7 +20,7 @@ public class Mover : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(castPoint, out hit, Mathf.Infinity, hitLayers))
         {
-            transform.position = hit.point;
+            rb.transform.position = hit.point;
         }
     }
 }
