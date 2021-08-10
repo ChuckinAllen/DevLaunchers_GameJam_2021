@@ -1,14 +1,14 @@
 using UnityEngine;
 using BeardedManStudios.Forge.Networking.Generated;
 
-public class PlayerCube : PlayerCubeBehavior
+public class PlayerCube //: PlayerCubeBehavior
 {
     /// <summary>
     /// The speed that this cube should move by when there are axis inputs
     /// </summary>
     public float speed = 5.0f;
 
-    private void Update()
+    /*private void Update()
     {
         // If this is not owned by the current network client then it needs to
         // assign it to the position and rotation specified
@@ -42,5 +42,5 @@ public class PlayerCube : PlayerCubeBehavior
 
         // Note: Forge Networking takes care of only sending the delta, so there
         // is no need for you to do that manually
-    }
+    }*/
 }

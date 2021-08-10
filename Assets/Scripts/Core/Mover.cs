@@ -1,4 +1,6 @@
 using BeardedManStudios.Forge.Networking.Generated;
+using BeardedManStudios.Forge.Networking;
+using BeardedManStudios.Forge.Networking.Unity;
 using UnityEngine;
 using UnityEngine.AI;
 using RPG.Attrbutes;
@@ -47,7 +49,9 @@ namespace RPG.Movement
                 // Since we are the owner, tell the network the updated rotation
                 networkObject.rotation = transform.rotation;
             }
+            //networkObject.SendRpc("HelloWorldworld", Receivers.AllBuffered);
         }
+
 
         public void StartMoveAction(Vector3 destination, float speedFraction)
         {

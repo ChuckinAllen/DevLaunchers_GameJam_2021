@@ -2,7 +2,7 @@ using UnityEngine;
 using BeardedManStudios.Forge.Networking.Generated;
 using BeardedManStudios.Forge.Networking;
 using BeardedManStudios.Forge.Networking.Unity;
-public class BasicSphere : BasicSphereBehavior
+/*public class BasicSphere : BasicSphereBehavior
 {
     private void Update()
     {
@@ -44,4 +44,4 @@ public class BasicSphere : BasicSphereBehavior
             transform.position += Vector3.down;
         });
     }
-}
+}*/
