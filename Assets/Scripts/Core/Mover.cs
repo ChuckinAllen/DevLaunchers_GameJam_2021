@@ -21,7 +21,7 @@ namespace RPG.Movement
             health = GetComponent<Health>();
         }
 
-        void Update()
+        void LateUpdate()
         {
             // If this is not owned by the current network client then it needs to
             // assign it to the position and rotation specified

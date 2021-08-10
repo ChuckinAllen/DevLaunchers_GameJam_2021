@@ -12,12 +12,12 @@ namespace RPG.Core
 
         void LateUpdate()
         {
-            Debug.Log(networkObject.IsOwner);
+            transform.position = target.position + new Vector3(0, DistanceFromTarget, 0);
             if (networkObject.IsOwner)
             {
-                transform.position = GameObject.FindGameObjectWithTag("Player").transform.position +
-                new Vector3(0, DistanceFromTarget, 0);
-                //transform.position = target.position;
+                //transform.position = GameObject.FindGameObjectWithTag("Player").transform.position +
+                //new Vector3(0, DistanceFromTarget, 0);
+                transform.position = target.position + new Vector3(0, DistanceFromTarget, 0);
             }
         }
     }

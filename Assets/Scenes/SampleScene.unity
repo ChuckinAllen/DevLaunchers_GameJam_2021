@@ -738,6 +738,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NetworkManager
       objectReference: {fileID: 0}
+    - target: {fileID: 186558, guid: 79adc0da5b6caf74990d862696696ecd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 471382, guid: 79adc0da5b6caf74990d862696696ecd, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -782,6 +786,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11439882, guid: 79adc0da5b6caf74990d862696696ecd, type: 3}
+      propertyPath: NetworkCameraNetworkObject.Array.data[0]
+      value: 
+      objectReference: {fileID: 139536, guid: 661f29f0c0c86fa47b6015bd602d0ac6, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79adc0da5b6caf74990d862696696ecd, type: 3}
 --- !u!1 &4179652659205687545
