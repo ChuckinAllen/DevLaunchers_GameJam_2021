@@ -1,3 +1,4 @@
+using BeardedManStudios.Forge.Networking.Generated;
 using UnityEngine;
 using UnityEngine.AI;
 using RPG.Attrbutes;
@@ -5,7 +6,7 @@ using RPG.Core;
 
 namespace RPG.Movement
 {
-    public class Mover : MonoBehaviour, IAction
+    public class Mover : PlayerCubeBehavior, IAction
     {
         [SerializeField] float maxSpeed = 6f;
         [SerializeField] float maxNavPathLength = 40f;
@@ -22,8 +23,30 @@ namespace RPG.Movement
 
         void Update()
         {
-            navMeshAgent.enabled = !health.IsDead();
-            UpdateAmimator();
+            // If this is not owned by the current network client then it needs to
+            // assign it to the position and rotation specified
+            if (!networkObject.IsOwner)
+            {
+                // Assign the position of this cube to the position sent on the network
+                transform.position = networkObject.position;
+
+                // Assign the rotation of this cube to the rotation sent on the network
+                transform.rotation = networkObject.rotation;
+
+                // Stop the function here and don't run any more code in this function
+                return;
+            }
+            if (networkObject.IsOwner)
+            {
+                navMeshAgent.enabled = !health.IsDead();
+                UpdateAmimator();
+
+                // Since we are the owner, tell the network the updated position
+                networkObject.position = transform.position;
+
+                // Since we are the owner, tell the network the updated rotation
+                networkObject.rotation = transform.rotation;
+            }
         }
 
         public void StartMoveAction(Vector3 destination, float speedFraction)

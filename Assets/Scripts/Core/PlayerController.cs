@@ -29,7 +29,7 @@ namespace RPG.Control
 
         bool isDraggingUI = false;
 
-        void Update()
+        public void Update()
         {
             //if(InteractWithUI()) return;
             if (health.IsDead()) 
