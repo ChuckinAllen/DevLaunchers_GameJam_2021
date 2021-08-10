@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Bearded Man Studios Inc/Examples/Cube Forge/CubeForgeGame.unity
     guid: 4ef136a7071399248bad683d402a0e39
+  - enabled: 0
+    path: Assets/Bearded Man Studios Inc/Examples/Proximity/ExampleProximity.unity
+    guid: c5129b7b4abd07747875264ed6f5ecf3
   m_configObjects: {}

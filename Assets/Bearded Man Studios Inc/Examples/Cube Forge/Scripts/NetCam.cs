@@ -4,9 +4,9 @@ using UnityEngine;
 public class NetCam : NetworkCameraBehavior
 {
 	/// <summary>
-	/// The speed of the camera whenever it is moving
+	/// The distance 
 	/// </summary>
-	public float speed = 5.0f;
+	public float DistanceFromTarget = 10f;
 
 	/// <summary>
 	/// The reference to the camera component of this object
@@ -82,7 +82,11 @@ public class NetCam : NetworkCameraBehavior
 					CubeForgeGame.Instance.CreatePrimitive(position);
 			}
 		}
-		// If we right click we can move the camera as if we were in noclip mode
+
+		transform.position = GameObject.FindGameObjectWithTag("Player").transform.position +
+		new Vector3(0, DistanceFromTarget, 0);
+
+		/*// If we right click we can move the camera as if we were in noclip mode
 		else if (Input.GetMouseButton(1))
 		{
 			if (Input.GetKey(KeyCode.W))
@@ -108,7 +112,7 @@ public class NetCam : NetworkCameraBehavior
 		{
 			Cursor.lockState = CursorLockMode.None;
 			Cursor.visible = true;
-		}
+		}*/
 
 		// The network object should always house the latest position of this camera
 		networkObject.position = transform.position;

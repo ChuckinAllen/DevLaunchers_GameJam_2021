@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8033333766267523563}
   - component: {fileID: 8879242635438695655}
-  - component: {fileID: 8769088710411129068}
   m_Layer: 0
   m_Name: GameLogic
   m_TagString: Untagged
@@ -44,16 +43,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bc88c98c3bca274582dd7df259ef330, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8769088710411129068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8524802634208155028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57f9d16800177304781ccd9eb292a436, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CharterPrefab: {fileID: 3204215454857253609, guid: 624f740077b880e4bb28c9b72d432a4d, type: 3}
