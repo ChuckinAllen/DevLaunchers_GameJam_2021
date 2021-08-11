@@ -19,4 +19,8 @@ MonoBehaviour:
       levels:
       - 10
     - stat: 2
-      levels: []
+      levels:
+      - 10
+    - stat: 3
+      levels:
+      - 10
