@@ -38,17 +38,14 @@ namespace RPG.Movement
                 // Stop the function here and don't run any more code in this function
                 return;
             }
-            if (networkObject.IsOwner)
-            {
-                navMeshAgent.enabled = !health.IsDead();
-                UpdateAmimator();
+            navMeshAgent.enabled = !health.IsDead();
+            UpdateAmimator();
 
-                // Since we are the owner, tell the network the updated position
-                networkObject.position = transform.position;
+            // Since we are the owner, tell the network the updated position
+            networkObject.position = transform.position;
 
-                // Since we are the owner, tell the network the updated rotation
-                networkObject.rotation = transform.rotation;
-            }
+            // Since we are the owner, tell the network the updated rotation
+            networkObject.rotation = transform.rotation;
             //networkObject.SendRpc("HelloWorldworld", Receivers.AllBuffered);
         }
 

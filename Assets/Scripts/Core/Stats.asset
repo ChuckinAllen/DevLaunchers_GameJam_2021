@@ -16,6 +16,7 @@ MonoBehaviour:
   - characterClass: 0
     stats:
     - stat: 0
-      levels: []
+      levels:
+      - 10
     - stat: 2
       levels: []
