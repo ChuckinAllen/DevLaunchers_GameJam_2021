@@ -7,6 +7,7 @@ public class NetCam : NetworkCameraBehavior
 	/// The speed of the camera whenever it is moving
 	/// The distance 
 	/// </summary>
+	public float DistanceFromTarget = 10f;
 
 	/// <summary>
 	/// The reference to the camera component of this object
