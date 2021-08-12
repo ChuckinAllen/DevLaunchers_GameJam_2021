@@ -24,9 +24,15 @@ namespace RPG.Combat
         WeaponConfig currentWeaponConfig;
         LazyValue<Weapon> currentWeapon;
 
+        public static Fighter instance;
 
         private void Awake()
         {
+            /*if(instance == null)
+            {
+                instance = this;
+                GetComponent<CombatTarget>().enabled = false;
+            }*/
             currentWeaponConfig = defaultWeapon;
             currentWeapon = new LazyValue<Weapon>(SetupDefaultWeapon);
             equipment = GetComponent<Equipment>();
@@ -116,10 +122,10 @@ namespace RPG.Combat
         void Hit()
         {
             if (target == null) return;
-
+            Debug.Log("HIT");
             float damage = GetComponent<BaseStats>().GetStat(Stat.Damage);
 
-            if(currentWeapon.value != null)
+            if (currentWeapon.value != null)
             {
                 currentWeapon.value.OnHit();
             }

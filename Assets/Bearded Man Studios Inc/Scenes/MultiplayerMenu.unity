@@ -447,6 +447,9 @@ MonoBehaviour:
   m_OnEndEdit:
     m_PersistentCalls:
       m_Calls: []
+  m_OnSubmit:
+    m_PersistentCalls:
+      m_Calls: []
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1180,6 +1183,9 @@ MonoBehaviour:
   m_OnEndEdit:
     m_PersistentCalls:
       m_Calls: []
+  m_OnSubmit:
+    m_PersistentCalls:
+      m_Calls: []
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1377,9 +1383,9 @@ MonoBehaviour:
   ipAddress: {fileID: 1926933003}
   portNumber: {fileID: 845038659}
   DontChangeSceneOnConnect: 0
-  masterServerHost: 15940
+  masterServerHost: 10.0.0.10
   masterServerPort: 15940
-  natServerHost: 
+  natServerHost: 127.0.0.1
   natServerPort: 15941
   connectUsingMatchmaking: 0
   useElo: 0

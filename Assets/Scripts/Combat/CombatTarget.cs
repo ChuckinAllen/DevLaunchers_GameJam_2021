@@ -16,6 +16,7 @@ namespace RPG.Combat
         bool IRaycastable.HandleRaycast(PlayerController callingController)
         {
             if(!enabled) return false;
+            //Debug.Log(GetComponent<Fighter>());
             if (!callingController.GetComponent<Fighter>().CanAttack(gameObject))
             {
                 return false;
