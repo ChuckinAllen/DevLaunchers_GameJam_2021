@@ -1,0 +1,4125 @@
+animVersion 1.1;
+mayaVersion 2022;
+timeUnit ntsc;
+linearUnit cm;
+angularUnit deg;
+startTime -28;
+endTime 59;
+anim Koi_Ctrls 0 1 0;
+anim translate.translateX translateX Koi_Ctrls|Koi_root_ctrl 1 5 0;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateY translateY Koi_Ctrls|Koi_root_ctrl 1 5 1;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateZ translateZ Koi_Ctrls|Koi_root_ctrl 1 5 2;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateX rotateX Koi_Ctrls|Koi_root_ctrl 1 5 3;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY Koi_Ctrls|Koi_root_ctrl 1 5 4;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1.358 spline spline 1 0 0;
+    -14 -1.358 spline spline 1 0 0;
+    1 1.358 spline spline 1 0 0;
+    15 -1.358 spline spline 1 0 0;
+    30 1.358 spline spline 1 0 0;
+    44 -1.358 spline spline 1 0 0;
+    59 1.358 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ Koi_Ctrls|Koi_root_ctrl 1 5 5;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim scale.scaleX scaleX Koi_Ctrls|Koi_root_ctrl 1 5 6;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleY scaleY Koi_Ctrls|Koi_root_ctrl 1 5 7;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleZ scaleZ Koi_Ctrls|Koi_root_ctrl 1 5 8;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim visibility visibility Koi_Ctrls|Koi_root_ctrl 1 5 9;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim Koi_Ctrls|Koi_root_ctrl|Koi_root_ctrl 2 0 0;
+anim rotate.rotateX rotateX Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl 2 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl 2 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 -8.3143375 spline spline 1 0 0;
+    -14 8.314 spline spline 1 0 0;
+    1 -8.3143375 spline spline 1 0 0;
+    15 8.314 spline spline 1 0 0;
+    30 -8.3143375 spline spline 1 0 0;
+    44 8.314 spline spline 1 0 0;
+    59 -8.3143375 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl 2 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim visibility visibility Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl 2 2 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim translate.translateX translateX Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl 2 2 4;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateY translateY Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl 2 2 5;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateZ translateZ Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl 2 2 6;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim scale.scaleX scaleX Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl 2 2 7;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleY scaleY Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl 2 2 8;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleZ scaleZ Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl 2 2 9;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid1_ctrl 3 0 0;
+anim rotate.rotateX rotateX Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl 3 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl 3 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 -8.3143375 spline spline 1 0 0;
+    -21 -2.0495815 spline spline 1 0 0;
+    -14 8.314 spline spline 1 0 0;
+    -7 2.05 spline spline 1 0 0;
+    1 -8.3143375 spline spline 1 0 0;
+    8 -2.0495815 spline spline 1 0 0;
+    15 8.314 spline spline 1 0 0;
+    22 2.05 spline spline 1 0 0;
+    30 -8.3143375 spline spline 1 0 0;
+    37 -2.0495815 spline spline 1 0 0;
+    44 8.314 spline spline 1 0 0;
+    51 2.05 spline spline 1 0 0;
+    59 -8.3143375 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl 3 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim visibility visibility Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl 3 2 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim translate.translateX translateX Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl 3 2 4;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateY translateY Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl 3 2 5;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateZ translateZ Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl 3 2 6;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim scale.scaleX scaleX Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl 3 2 7;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleY scaleY Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl 3 2 8;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleZ scaleZ Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl 3 2 9;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid2_ctrl 4 0 0;
+anim rotate.rotateX rotateX Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl 4 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl 4 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 -8.3143375 spline spline 1 0 0;
+    -21 -6.9585142 spline spline 1 0 0;
+    -14 8.314 spline spline 1 0 0;
+    -7 6.959 spline spline 1 0 0;
+    1 -8.3143375 spline spline 1 0 0;
+    8 -6.9585142 spline spline 1 0 0;
+    15 8.314 spline spline 1 0 0;
+    22 6.959 spline spline 1 0 0;
+    30 -8.3143375 spline spline 1 0 0;
+    37 -6.9585142 spline spline 1 0 0;
+    44 8.314 spline spline 1 0 0;
+    51 6.959 spline spline 1 0 0;
+    59 -8.3143375 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl 4 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim visibility visibility Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl 4 2 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim translate.translateX translateX Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl 4 2 4;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateY translateY Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl 4 2 5;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateZ translateZ Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl 4 2 6;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim scale.scaleX scaleX Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl 4 2 7;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleY scaleY Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl 4 2 8;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleZ scaleZ Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl 4 2 9;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid3_ctrl 5 0 0;
+anim rotate.rotateX rotateX Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid4_ctrl 5 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid4_ctrl 5 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 -8.3143375 spline spline 1 0 0;
+    -21 -6.9585142 spline spline 1 0 0;
+    -17 -4.8371978 spline spline 1 0 0;
+    -14 8.314 spline spline 1 0 0;
+    -7 6.959 spline spline 1 0 0;
+    -2 4.837 spline spline 1 0 0;
+    1 -8.3143375 spline spline 1 0 0;
+    8 -6.9585142 spline spline 1 0 0;
+    12 -4.8371978 spline spline 1 0 0;
+    15 8.314 spline spline 1 0 0;
+    22 6.959 spline spline 1 0 0;
+    27 4.837 spline spline 1 0 0;
+    30 -8.3143375 spline spline 1 0 0;
+    37 -6.9585142 spline spline 1 0 0;
+    41 -4.8371978 spline spline 1 0 0;
+    44 8.314 spline spline 1 0 0;
+    51 6.959 spline spline 1 0 0;
+    56 4.837 spline spline 1 0 0;
+    59 -8.3143375 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid4_ctrl 5 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim visibility visibility Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid4_ctrl 5 2 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim translate.translateX translateX Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid4_ctrl 5 2 4;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateY translateY Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid4_ctrl 5 2 5;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateZ translateZ Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid4_ctrl 5 2 6;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim scale.scaleX scaleX Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid4_ctrl 5 2 7;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleY scaleY Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid4_ctrl 5 2 8;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleZ scaleZ Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid4_ctrl 5 2 9;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid4_ctrl|Koi_mid4_ctrl 6 0 0;
+anim rotate.rotateX rotateX Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid4_ctrl|Koi_mid5_ctrl 6 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid4_ctrl|Koi_mid5_ctrl 6 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 -8.3143375 spline spline 1 0 0;
+    -21 -6.9585142 spline spline 1 0 0;
+    -17 -4.8371978 spline spline 1 0 0;
+    -14 8.314 spline spline 1 0 0;
+    -7 6.959 spline spline 1 0 0;
+    -2 4.837 spline spline 1 0 0;
+    1 -8.3143375 spline spline 1 0 0;
+    8 -6.9585142 spline spline 1 0 0;
+    12 -4.8371978 spline spline 1 0 0;
+    15 8.314 spline spline 1 0 0;
+    22 6.959 spline spline 1 0 0;
+    27 4.837 spline spline 1 0 0;
+    30 -8.3143375 spline spline 1 0 0;
+    37 -6.9585142 spline spline 1 0 0;
+    41 -4.8371978 spline spline 1 0 0;
+    44 8.314 spline spline 1 0 0;
+    51 6.959 spline spline 1 0 0;
+    56 4.837 spline spline 1 0 0;
+    59 -8.3143375 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid4_ctrl|Koi_mid5_ctrl 6 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim visibility visibility Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid4_ctrl|Koi_mid5_ctrl 6 2 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim translate.translateX translateX Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid4_ctrl|Koi_mid5_ctrl 6 2 4;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateY translateY Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid4_ctrl|Koi_mid5_ctrl 6 2 5;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateZ translateZ Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid4_ctrl|Koi_mid5_ctrl 6 2 6;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim scale.scaleX scaleX Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid4_ctrl|Koi_mid5_ctrl 6 2 7;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleY scaleY Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid4_ctrl|Koi_mid5_ctrl 6 2 8;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleZ scaleZ Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid4_ctrl|Koi_mid5_ctrl 6 2 9;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim Koi_Ctrls|Koi_root_ctrl|Koi_mid1_ctrl|Koi_mid2_ctrl|Koi_mid3_ctrl|Koi_mid4_ctrl|Koi_mid5_ctrl|Koi_mid5_ctrl 7 0 0;
+anim rotate.rotateX rotateX Koi_mid6_ctrl 7 3 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY Koi_mid6_ctrl 7 3 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 -8.3143375 spline spline 1 0 0;
+    -21 -6.9585142 spline spline 1 0 0;
+    -17 -4.8371978 spline spline 1 0 0;
+    -14 -2.909112 spline spline 1 0 0;
+    -7 6.959 spline spline 1 0 0;
+    -2 4.837 spline spline 1 0 0;
+    1 -8.3143375 spline spline 1 0 0;
+    8 -6.9585142 spline spline 1 0 0;
+    12 -4.8371978 spline spline 1 0 0;
+    15 -2.909112 spline spline 1 0 0;
+    22 6.959 spline spline 1 0 0;
+    27 4.837 spline spline 1 0 0;
+    30 -8.3143375 spline spline 1 0 0;
+    37 -6.9585142 spline spline 1 0 0;
+    41 -4.8371978 spline spline 1 0 0;
+    44 -2.909112 spline spline 1 0 0;
+    51 6.959 spline spline 1 0 0;
+    56 4.837 spline spline 1 0 0;
+    59 -8.3143375 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ Koi_mid6_ctrl 7 3 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim visibility visibility Koi_mid6_ctrl 7 3 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim translate.translateX translateX Koi_mid6_ctrl 7 3 4;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateY translateY Koi_mid6_ctrl 7 3 5;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateZ translateZ Koi_mid6_ctrl 7 3 6;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim scale.scaleX scaleX Koi_mid6_ctrl 7 3 7;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleY scaleY Koi_mid6_ctrl 7 3 8;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleZ scaleZ Koi_mid6_ctrl 7 3 9;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim Koi_caudal_ctrl 8 0 0;
+anim Koi_tail_top_grp 8 1 0;
+anim rotate.rotateX rotateX Koi_tail_top_ctrl 9 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY Koi_tail_top_ctrl 9 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 -8.3143375 spline spline 1 0 0;
+    -21 -6.9585142 spline spline 1 0 0;
+    -17 -4.8371978 spline spline 1 0 0;
+    -14 -2.909112 spline spline 1 0 0;
+    -7 6.959 spline spline 1 0 0;
+    -2 4.837 spline spline 1 0 0;
+    1 -8.3143375 spline spline 1 0 0;
+    8 -6.9585142 spline spline 1 0 0;
+    12 -4.8371978 spline spline 1 0 0;
+    15 -2.909112 spline spline 1 0 0;
+    22 6.959 spline spline 1 0 0;
+    27 4.837 spline spline 1 0 0;
+    30 -8.3143375 spline spline 1 0 0;
+    37 -6.9585142 spline spline 1 0 0;
+    41 -4.8371978 spline spline 1 0 0;
+    44 -2.909112 spline spline 1 0 0;
+    51 6.959 spline spline 1 0 0;
+    56 4.837 spline spline 1 0 0;
+    59 -8.3143375 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ Koi_tail_top_ctrl 9 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim visibility visibility Koi_tail_top_ctrl 9 2 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim translate.translateX translateX Koi_tail_top_ctrl 9 2 4;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateY translateY Koi_tail_top_ctrl 9 2 5;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateZ translateZ Koi_tail_top_ctrl 9 2 6;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim scale.scaleX scaleX Koi_tail_top_ctrl 9 2 7;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleY scaleY Koi_tail_top_ctrl 9 2 8;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleZ scaleZ Koi_tail_top_ctrl 9 2 9;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim Koi_tail_top_ctrlShape 10 0 0;
+anim Koi_tail2_top_grp 10 1 0;
+anim rotate.rotateX rotateX Koi_tail2_top_ctrl 11 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY Koi_tail2_top_ctrl 11 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 -8.3143375 spline spline 1 0 0;
+    -21 -25.298006 spline spline 1 0 0;
+    -17 -19.313852 spline spline 1 0 0;
+    -14 -2.909112 spline spline 1 0 0;
+    -7 25.298 spline spline 1 0 0;
+    -2 19.314 spline spline 1 0 0;
+    1 -8.3143375 spline spline 1 0 0;
+    8 -25.298006 spline spline 1 0 0;
+    12 -19.313852 spline spline 1 0 0;
+    15 -2.909112 spline spline 1 0 0;
+    22 25.298 spline spline 1 0 0;
+    27 19.314 spline spline 1 0 0;
+    30 -8.3143375 spline spline 1 0 0;
+    37 -25.298006 spline spline 1 0 0;
+    41 -19.313852 spline spline 1 0 0;
+    44 -2.909112 spline spline 1 0 0;
+    51 25.298 spline spline 1 0 0;
+    56 19.314 spline spline 1 0 0;
+    59 -8.3143375 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ Koi_tail2_top_ctrl 11 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim visibility visibility Koi_tail2_top_ctrl 11 2 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim translate.translateX translateX Koi_tail2_top_ctrl 11 2 4;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateY translateY Koi_tail2_top_ctrl 11 2 5;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateZ translateZ Koi_tail2_top_ctrl 11 2 6;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim scale.scaleX scaleX Koi_tail2_top_ctrl 11 2 7;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleY scaleY Koi_tail2_top_ctrl 11 2 8;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleZ scaleZ Koi_tail2_top_ctrl 11 2 9;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim Koi_tail2_top_ctrlShape 12 0 0;
+anim Koi_tail3_top_grp 12 1 0;
+anim rotate.rotateX rotateX Koi_tail3_top_ctrl 13 1 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY Koi_tail3_top_ctrl 13 1 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 -8.3143375 spline spline 1 0 0;
+    -21 -25.298006 spline spline 1 0 0;
+    -17 -19.313852 spline spline 1 0 0;
+    -14 -2.909112 spline spline 1 0 0;
+    -7 25.298 spline spline 1 0 0;
+    -2 19.314 spline spline 1 0 0;
+    1 -8.3143375 spline spline 1 0 0;
+    8 -25.298006 spline spline 1 0 0;
+    12 -19.313852 spline spline 1 0 0;
+    15 -2.909112 spline spline 1 0 0;
+    22 25.298 spline spline 1 0 0;
+    27 19.314 spline spline 1 0 0;
+    30 -8.3143375 spline spline 1 0 0;
+    37 -25.298006 spline spline 1 0 0;
+    41 -19.313852 spline spline 1 0 0;
+    44 -2.909112 spline spline 1 0 0;
+    51 25.298 spline spline 1 0 0;
+    56 19.314 spline spline 1 0 0;
+    59 -8.3143375 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ Koi_tail3_top_ctrl 13 1 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim visibility visibility Koi_tail3_top_ctrl 13 1 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim translate.translateX translateX Koi_tail3_top_ctrl 13 1 4;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateY translateY Koi_tail3_top_ctrl 13 1 5;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateZ translateZ Koi_tail3_top_ctrl 13 1 6;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim scale.scaleX scaleX Koi_tail3_top_ctrl 13 1 7;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleY scaleY Koi_tail3_top_ctrl 13 1 8;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleZ scaleZ Koi_tail3_top_ctrl 13 1 9;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim Koi_tail3_top_ctrlShape 14 0 0;
+anim Koi_bottom_top_grp 8 1 0;
+anim rotate.rotateX rotateX Koi_bottom_top_ctrl 9 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY Koi_bottom_top_ctrl 9 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 -8.3143375 spline spline 1 0 0;
+    -21 -6.9585142 spline spline 1 0 0;
+    -17 -4.8371978 spline spline 1 0 0;
+    -14 -2.909112 spline spline 1 0 0;
+    -7 6.959 spline spline 1 0 0;
+    -2 4.837 spline spline 1 0 0;
+    1 -8.3143375 spline spline 1 0 0;
+    8 -6.9585142 spline spline 1 0 0;
+    12 -4.8371978 spline spline 1 0 0;
+    15 -2.909112 spline spline 1 0 0;
+    22 6.959 spline spline 1 0 0;
+    27 4.837 spline spline 1 0 0;
+    30 -8.3143375 spline spline 1 0 0;
+    37 -6.9585142 spline spline 1 0 0;
+    41 -4.8371978 spline spline 1 0 0;
+    44 -2.909112 spline spline 1 0 0;
+    51 6.959 spline spline 1 0 0;
+    56 4.837 spline spline 1 0 0;
+    59 -8.3143375 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ Koi_bottom_top_ctrl 9 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim visibility visibility Koi_bottom_top_ctrl 9 2 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim translate.translateX translateX Koi_bottom_top_ctrl 9 2 4;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateY translateY Koi_bottom_top_ctrl 9 2 5;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateZ translateZ Koi_bottom_top_ctrl 9 2 6;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim scale.scaleX scaleX Koi_bottom_top_ctrl 9 2 7;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleY scaleY Koi_bottom_top_ctrl 9 2 8;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleZ scaleZ Koi_bottom_top_ctrl 9 2 9;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim Koi_bottom_top_ctrlShape 10 0 0;
+anim Koi_bottom2_top_grp 10 1 0;
+anim rotate.rotateX rotateX Koi_bottom2_top_ctrl 11 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY Koi_bottom2_top_ctrl 11 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 -8.3143375 spline spline 1 0 0;
+    -21 -25.298006 spline spline 1 0 0;
+    -17 -19.313852 spline spline 1 0 0;
+    -14 -2.909112 spline spline 1 0 0;
+    -7 25.298 spline spline 1 0 0;
+    -2 19.314 spline spline 1 0 0;
+    1 -8.3143375 spline spline 1 0 0;
+    8 -25.298006 spline spline 1 0 0;
+    12 -19.313852 spline spline 1 0 0;
+    15 -2.909112 spline spline 1 0 0;
+    22 25.298 spline spline 1 0 0;
+    27 19.314 spline spline 1 0 0;
+    30 -8.3143375 spline spline 1 0 0;
+    37 -25.298006 spline spline 1 0 0;
+    41 -19.313852 spline spline 1 0 0;
+    44 -2.909112 spline spline 1 0 0;
+    51 25.298 spline spline 1 0 0;
+    56 19.314 spline spline 1 0 0;
+    59 -8.3143375 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ Koi_bottom2_top_ctrl 11 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim visibility visibility Koi_bottom2_top_ctrl 11 2 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim translate.translateX translateX Koi_bottom2_top_ctrl 11 2 4;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateY translateY Koi_bottom2_top_ctrl 11 2 5;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateZ translateZ Koi_bottom2_top_ctrl 11 2 6;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim scale.scaleX scaleX Koi_bottom2_top_ctrl 11 2 7;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleY scaleY Koi_bottom2_top_ctrl 11 2 8;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleZ scaleZ Koi_bottom2_top_ctrl 11 2 9;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim Koi_bottom2_top_ctrlShape 12 0 0;
+anim Koi_bottom3_top_grp 12 1 0;
+anim rotate.rotateX rotateX Koi_bottom3_top_ctrl 13 1 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY Koi_bottom3_top_ctrl 13 1 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 -8.3143375 spline spline 1 0 0;
+    -21 -25.298006 spline spline 1 0 0;
+    -17 -19.313852 spline spline 1 0 0;
+    -14 -2.909112 spline spline 1 0 0;
+    -7 25.298 spline spline 1 0 0;
+    -2 19.314 spline spline 1 0 0;
+    1 -8.3143375 spline spline 1 0 0;
+    8 -25.298006 spline spline 1 0 0;
+    12 -19.313852 spline spline 1 0 0;
+    15 -2.909112 spline spline 1 0 0;
+    22 25.298 spline spline 1 0 0;
+    27 19.314 spline spline 1 0 0;
+    30 -8.3143375 spline spline 1 0 0;
+    37 -25.298006 spline spline 1 0 0;
+    41 -19.313852 spline spline 1 0 0;
+    44 -2.909112 spline spline 1 0 0;
+    51 25.298 spline spline 1 0 0;
+    56 19.314 spline spline 1 0 0;
+    59 -8.3143375 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ Koi_bottom3_top_ctrl 13 1 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim visibility visibility Koi_bottom3_top_ctrl 13 1 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim translate.translateX translateX Koi_bottom3_top_ctrl 13 1 4;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateY translateY Koi_bottom3_top_ctrl 13 1 5;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateZ translateZ Koi_bottom3_top_ctrl 13 1 6;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -21 0 spline spline 1 0 0;
+    -17 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    -7 0 spline spline 1 0 0;
+    -2 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    8 0 spline spline 1 0 0;
+    12 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    22 0 spline spline 1 0 0;
+    27 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    37 0 spline spline 1 0 0;
+    41 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    51 0 spline spline 1 0 0;
+    56 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim scale.scaleX scaleX Koi_bottom3_top_ctrl 13 1 7;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleY scaleY Koi_bottom3_top_ctrl 13 1 8;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleZ scaleZ Koi_bottom3_top_ctrl 13 1 9;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -21 1 spline spline 1 0 0;
+    -17 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    -7 1 spline spline 1 0 0;
+    -2 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    8 1 spline spline 1 0 0;
+    12 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    22 1 spline spline 1 0 0;
+    27 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    37 1 spline spline 1 0 0;
+    41 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    51 1 spline spline 1 0 0;
+    56 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim Koi_bottom3_top_ctrlShape 14 0 0;
+anim Koi_pectoral_left_grp 2 1 0;
+anim rotate.rotateX rotateX Koi_pectoral_left_ctrl 3 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY Koi_pectoral_left_ctrl 3 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 -5.5264799 spline spline 1 0 0;
+    -14 5.526 spline spline 1 0 0;
+    1 -5.5264799 spline spline 1 0 0;
+    15 5.526 spline spline 1 0 0;
+    30 -5.5264799 spline spline 1 0 0;
+    44 5.526 spline spline 1 0 0;
+    59 -5.526 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ Koi_pectoral_left_ctrl 3 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim visibility visibility Koi_pectoral_left_ctrl 3 2 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim translate.translateX translateX Koi_pectoral_left_ctrl 3 2 4;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateY translateY Koi_pectoral_left_ctrl 3 2 5;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateZ translateZ Koi_pectoral_left_ctrl 3 2 6;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim scale.scaleX scaleX Koi_pectoral_left_ctrl 3 2 7;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim scale.scaleY scaleY Koi_pectoral_left_ctrl 3 2 8;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleZ scaleZ Koi_pectoral_left_ctrl 3 2 9;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim Koi_pectoral_left_ctrlShape 4 0 0;
+anim Koi_pectoral2_left_grp 4 0 0;
+anim Koi_pectoral_right_grp 2 1 0;
+anim rotate.rotateX rotateX Koi_pectoral_right_ctrl 3 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY Koi_pectoral_right_ctrl 3 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 5.526 spline spline 1 0 0;
+    -14 -5.526 spline spline 1 0 0;
+    1 5.526 spline spline 1 0 0;
+    15 -5.526 spline spline 1 0 0;
+    30 5.526 spline spline 1 0 0;
+    44 -5.526 spline spline 1 0 0;
+    59 5.526 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ Koi_pectoral_right_ctrl 3 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim visibility visibility Koi_pectoral_right_ctrl 3 2 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim translate.translateX translateX Koi_pectoral_right_ctrl 3 2 4;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateY translateY Koi_pectoral_right_ctrl 3 2 5;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateZ translateZ Koi_pectoral_right_ctrl 3 2 6;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim scale.scaleX scaleX Koi_pectoral_right_ctrl 3 2 7;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim scale.scaleY scaleY Koi_pectoral_right_ctrl 3 2 8;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleZ scaleZ Koi_pectoral_right_ctrl 3 2 9;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim Koi_pectoral_right_ctrlShape 4 0 0;
+anim Koi_pectoral2_right_grp 4 0 0;
+anim rotate.rotateX rotateX Koi_Ctrls|Koi_root_ctrl|Koi_head_ctrl 2 2 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY Koi_Ctrls|Koi_root_ctrl|Koi_head_ctrl 2 2 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ Koi_Ctrls|Koi_root_ctrl|Koi_head_ctrl 2 2 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim visibility visibility Koi_Ctrls|Koi_root_ctrl|Koi_head_ctrl 2 2 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim translate.translateX translateX Koi_Ctrls|Koi_root_ctrl|Koi_head_ctrl 2 2 4;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateY translateY Koi_Ctrls|Koi_root_ctrl|Koi_head_ctrl 2 2 5;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateZ translateZ Koi_Ctrls|Koi_root_ctrl|Koi_head_ctrl 2 2 6;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim scale.scaleX scaleX Koi_Ctrls|Koi_root_ctrl|Koi_head_ctrl 2 2 7;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleY scaleY Koi_Ctrls|Koi_root_ctrl|Koi_head_ctrl 2 2 8;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleZ scaleZ Koi_Ctrls|Koi_root_ctrl|Koi_head_ctrl 2 2 9;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim Koi_Ctrls|Koi_root_ctrl|Koi_head_ctrl|Koi_head_ctrl 3 0 0;
+anim rotate.rotateX rotateX Koi_jaw_ctrl 3 1 0;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateY rotateY Koi_jaw_ctrl 3 1 1;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim rotate.rotateZ rotateZ Koi_jaw_ctrl 3 1 2;
+animData {
+  input time;
+  output angular;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim visibility visibility Koi_jaw_ctrl 3 1 3;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim translate.translateX translateX Koi_jaw_ctrl 3 1 4;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateY translateY Koi_jaw_ctrl 3 1 5;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim translate.translateZ translateZ Koi_jaw_ctrl 3 1 6;
+animData {
+  input time;
+  output linear;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 0 spline spline 1 0 0;
+    -14 0 spline spline 1 0 0;
+    1 0 spline spline 1 0 0;
+    15 0 spline spline 1 0 0;
+    30 0 spline spline 1 0 0;
+    44 0 spline spline 1 0 0;
+    59 0 spline spline 1 0 0;
+  }
+}
+anim scale.scaleX scaleX Koi_jaw_ctrl 3 1 7;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleY scaleY Koi_jaw_ctrl 3 1 8;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim scale.scaleZ scaleZ Koi_jaw_ctrl 3 1 9;
+animData {
+  input time;
+  output unitless;
+  weighted 0;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+    -28 1 spline spline 1 0 0;
+    -14 1 spline spline 1 0 0;
+    1 1 spline spline 1 0 0;
+    15 1 spline spline 1 0 0;
+    30 1 spline spline 1 0 0;
+    44 1 spline spline 1 0 0;
+    59 1 spline spline 1 0 0;
+  }
+}
+anim Koi_jaw_ctrlShape 4 0 0;
