@@ -24,6 +24,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using UnityEngine;
 
 namespace BeardedManStudios.Forge.Networking
 {
@@ -31,7 +32,7 @@ namespace BeardedManStudios.Forge.Networking
 	/// The representation of an object on the network, this object can have
 	/// properties that it serializes and RPC (remote procedure calls)
 	/// </summary>
-	public abstract class NetworkObject
+	public abstract class NetworkObject 
 	{
 		protected const byte DIRTY_FIELD_SUB_ROUTER_ID = 1;
 		protected const byte DESTROY_SUB_ROUTER_ID = 2;

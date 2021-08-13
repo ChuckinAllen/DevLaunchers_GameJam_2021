@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using BeardedManStudios.Forge.Networking.Generated;
+using UnityEngine;
 using System;
 //using RPG.Combat;
 using GameDevTV.Utils;

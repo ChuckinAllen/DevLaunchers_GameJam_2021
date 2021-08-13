@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using BeardedManStudios.Forge.Networking.Generated;
+using BeardedManStudios.Forge.Networking;
+using UnityEngine;
 using System;
 
 namespace RPG.Stats
