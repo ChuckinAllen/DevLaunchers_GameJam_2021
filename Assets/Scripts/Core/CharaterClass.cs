@@ -2,11 +2,7 @@
 {
     public enum CharacterClass
     {
-        Player,
-        Warrior,
-        Ranger,
-        Mage,
-        Dragoon,
-        Slime
+        Fish_Player,
+        Fish_Enemy
     }
 }

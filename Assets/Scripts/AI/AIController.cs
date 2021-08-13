@@ -33,17 +33,14 @@ namespace RPG.Control
         float timesinceShouted = Mathf.Infinity;
         int currentWaypointIndex = 0;
 
-
         private void Awake()
         {
             fighter = GetComponent<Fighter>();
             health = GetComponent<Health>();
             mover = GetComponent<Mover>();
-            player = GameObject.FindWithTag("Player");
 
             gardPosition = new LazyValue<Vector3>(GetGuardPosition);
         }
-
 
         private Vector3 GetGuardPosition()
         {
@@ -55,10 +52,14 @@ namespace RPG.Control
             gardPosition.ForceInit();
         }
 
-
         private void Update()
         {
             if (health.IsDead()) return;
+            if(player == null)
+            {
+                player = GameObject.FindWithTag("Player");
+                Debug.Log("player null");
+            }
 
             if (IsAggrevated() && fighter.CanAttack(player))
             {

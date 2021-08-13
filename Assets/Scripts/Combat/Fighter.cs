@@ -24,7 +24,7 @@ namespace RPG.Combat
         WeaponConfig currentWeaponConfig;
         LazyValue<Weapon> currentWeapon;
 
-        public static Fighter instance;
+        //public static Fighter instance;
 
         private void Awake()
         {
@@ -122,7 +122,6 @@ namespace RPG.Combat
         void Hit()
         {
             if (target == null) return;
-            Debug.Log("HIT");
             float damage = GetComponent<BaseStats>().GetStat(Stat.Damage);
 
             if (currentWeapon.value != null)
@@ -156,6 +155,7 @@ namespace RPG.Combat
             if (!GetComponent<Mover>().CanMoveTo(combatTarget.transform.position) && 
                 !GetIsInRange(combatTarget.transform))
             {
+                Debug.Log("Combat target is: " + combatTarget);
                 return false; 
             }
 
