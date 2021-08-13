@@ -771,45 +771,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8960071936038915165, guid: 01f6ad9d9ed83bc458b971500ae129af, type: 3}
   m_PrefabInstance: {fileID: 1452803027}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1416620666 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4730889069320566586, guid: 33611ea4aa5eecd408b4cdc78c6ec9c6, type: 3}
-  m_PrefabInstance: {fileID: 4164220922812334043}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1416620667 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6296150581634702011, guid: 33611ea4aa5eecd408b4cdc78c6ec9c6, type: 3}
   m_PrefabInstance: {fileID: 4164220922812334043}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1416620670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1416620666}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e4f62cc2980cde409e41d76cfc67347, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1422088046 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8798330128209827106, guid: cb40de6d2716145489975c739b05b5a5, type: 3}
-  m_PrefabInstance: {fileID: 8441311236723705414}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1422088050
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1422088046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e4f62cc2980cde409e41d76cfc67347, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1452803027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -824,6 +790,10 @@ PrefabInstance:
     - target: {fileID: 3160073012093664469, guid: 01f6ad9d9ed83bc458b971500ae129af, type: 3}
       propertyPath: m_Name
       value: PlayerCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 5347591392280527672, guid: 01f6ad9d9ed83bc458b971500ae129af, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8138435760470176101, guid: 01f6ad9d9ed83bc458b971500ae129af, type: 3}
       propertyPath: m_BackGroundColor.b
@@ -1237,8 +1207,8 @@ PrefabInstance:
       value: Fish (Enemy)
       objectReference: {fileID: 0}
     - target: {fileID: 8798330128209827106, guid: cb40de6d2716145489975c739b05b5a5, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb40de6d2716145489975c739b05b5a5, type: 3}

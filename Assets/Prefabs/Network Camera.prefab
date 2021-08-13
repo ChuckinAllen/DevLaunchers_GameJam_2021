@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 12443496}
   - component: {fileID: 11435740}
   - component: {fileID: 3311034}
+  - component: {fileID: 7602793451573354995}
   m_Layer: 0
   m_Name: Network Camera
   m_TagString: MainCamera
@@ -97,7 +98,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b3adbd6371012a42ab3aa2981d16bbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DistanceFromTarget: 10
 --- !u!33 &3311034
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -106,3 +106,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 139536}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!81 &7602793451573354995
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139536}
+  m_Enabled: 1

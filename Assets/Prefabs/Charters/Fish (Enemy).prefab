@@ -28,6 +28,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3543163664273971010, guid: f4566d3f6d2c01b4bb02e5175bde907a, type: 3}
+      propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7010153543206991188, guid: f4566d3f6d2c01b4bb02e5175bde907a, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -50,15 +54,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7010153543206991188, guid: f4566d3f6d2c01b4bb02e5175bde907a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7010153543206991188, guid: f4566d3f6d2c01b4bb02e5175bde907a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7010153543206991188, guid: f4566d3f6d2c01b4bb02e5175bde907a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7010153543206991188, guid: f4566d3f6d2c01b4bb02e5175bde907a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
