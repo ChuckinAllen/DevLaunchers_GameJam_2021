@@ -80,7 +80,6 @@ namespace RPG.Movement
             navMeshAgent.isStopped = true;
         }
 
-
         private void UpdateAmimator()
         {
             Vector3 velocity = GetComponent<NavMeshAgent>().velocity;
