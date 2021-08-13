@@ -15,7 +15,6 @@ namespace RPG.Combat
 
         bool IRaycastable.HandleRaycast(PlayerController callingController)
         {
-            Debug.Log("enter");
             if (!enabled) return false;
 
             if (!callingController.GetComponent<Fighter>().CanAttack(gameObject))
@@ -25,12 +24,10 @@ namespace RPG.Combat
 
             if (Input.GetMouseButton(0))
             {
-                //var activePlayer = GameObject.FindGameObjectWithTag("Player");
-                //Debug.Log(callingController.name + " " + activePlayer.name);
-                /*if (callingController.gameObject == activePlayer)
+                if (callingController.gameObject == gameObject)
                 {
                     return false;
-                }*/
+                }
                 callingController.GetComponent<Fighter>().Attack(gameObject);
             }
             return true;
