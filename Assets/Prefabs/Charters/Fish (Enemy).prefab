@@ -48,10 +48,6 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4368640294340615489, guid: f4566d3f6d2c01b4bb02e5175bde907a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.538
-      objectReference: {fileID: 0}
     - target: {fileID: 7010153543206991188, guid: f4566d3f6d2c01b4bb02e5175bde907a, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -97,10 +93,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7410219018052800599, guid: f4566d3f6d2c01b4bb02e5175bde907a, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8004896087520410597, guid: f4566d3f6d2c01b4bb02e5175bde907a, type: 3}
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}

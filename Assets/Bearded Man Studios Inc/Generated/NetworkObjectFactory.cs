@@ -47,10 +47,6 @@ namespace BeardedManStudios.Forge.Networking.Generated
 						availableCallback = true;
 						obj = new TestNetworkObject(networker, id, frame);
 						break;
-					case HealthNetworkObject.IDENTITY:
-						availableCallback = true;
-						obj = new HealthNetworkObject(networker, id, frame);
-						break;
 				}
 
 				if (!availableCallback)
