@@ -24,6 +24,19 @@ MonoBehaviour:
     hotspot: {x: 0, y: 0}
   maxNavMeshProjectionDistance: 1
   raycastRadius: 1
+--- !u!114 &9065687608184872036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4730889069320566586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1122be34af709dd43b7bab40f10af061, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowHide: {fileID: 0}
 --- !u!1 &5573100318951412174
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,9 +137,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4368640294340615489, guid: f4566d3f6d2c01b4bb02e5175bde907a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.5
+    - target: {fileID: 1930089854589203058, guid: f4566d3f6d2c01b4bb02e5175bde907a, type: 3}
+      propertyPath: playerLight
+      value: 
+      objectReference: {fileID: 5573100318951412174}
+    - target: {fileID: 3543163664273971010, guid: f4566d3f6d2c01b4bb02e5175bde907a, type: 3}
+      propertyPath: onDie.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543163664273971010, guid: f4566d3f6d2c01b4bb02e5175bde907a, type: 3}
+      propertyPath: onDie.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543163664273971010, guid: f4566d3f6d2c01b4bb02e5175bde907a, type: 3}
+      propertyPath: onDie.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 9065687608184872036}
+    - target: {fileID: 3543163664273971010, guid: f4566d3f6d2c01b4bb02e5175bde907a, type: 3}
+      propertyPath: onDie.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543163664273971010, guid: f4566d3f6d2c01b4bb02e5175bde907a, type: 3}
+      propertyPath: onDie.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ShowDeathScreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543163664273971010, guid: f4566d3f6d2c01b4bb02e5175bde907a, type: 3}
+      propertyPath: onDie.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: MenuUI, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543163664273971010, guid: f4566d3f6d2c01b4bb02e5175bde907a, type: 3}
+      propertyPath: onDie.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543163664273971010, guid: f4566d3f6d2c01b4bb02e5175bde907a, type: 3}
+      propertyPath: onDie.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7010153543206991188, guid: f4566d3f6d2c01b4bb02e5175bde907a, type: 3}
       propertyPath: m_RootOrder

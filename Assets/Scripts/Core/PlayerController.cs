@@ -38,7 +38,7 @@ namespace RPG.Control
                 return;
             }
 
-            if (InteractWithComponent()) return;
+            if (InteractWithComponent()) return; //remove this for a collision based system
             if (InteractWithMovement()) return;
 
             SetCursor(CursorType.None);
@@ -83,6 +83,18 @@ namespace RPG.Control
             }
             return false;
         }
+        /*private void OnCollisionEnter(Collision collision)
+        {
+            if (collision.gameObject.tag == "Player")
+            {
+                Debug.Log("player");
+            }
+            if(collision.gameObject.tag == "Enemy")
+            {
+                Debug.Log("Enemy");
+            }
+            InteractWithComponent();
+        }*/
 
         RaycastHit[] RaycastAllSorted()
         {
